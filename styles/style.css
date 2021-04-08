@@ -1,12 +1,18 @@
-body {
-    font-family: "Raleway", sans-serif;
+:root {
+    --heading-font: "Raleway", sans-serif;
 }
 
 h1 {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--heading-font);
     font-weight: bold;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.3);
 }
 
 p {
     font-family: 'Dosis', sans-serif;
+}
+
+.background {
+    background-color: rgba(250, 235, 215, 0.3);
 }
