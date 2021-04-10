@@ -1,42 +1,76 @@
-:root {
-    --heading-font: "Raleway", sans-serif;
-    --default-font: "Dosis", sans-serif;
-    --branding-color: rgba(250, 235, 215, 0.3);
-}
-
-body {
-    font-family: var(--default-font);
-    background: var(--branding-color);
-    margin: 30px;
-}
-
-header {
-    background: url(/images/barnensbad1.jpg) no-repeat center;
-    height: 250px;
-}
-
-h1,
-h2 {
-    font-family: var(--heading-font);
-    font-weight: bold;
-    text-align: center;
-    margin: 20px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-p {
-    font-weight: normal;
-}
-
-@media (max-width: 576px) {
-    h1 {
-        font-size: 24px;
-        line-height: 1.5;
-    }
-    h2 {
-        font-size: 18px;
-    }
-}
+        :root {
+           --heading-font: "Raleway", sans-serif;
+           --default-font: "Dosis", sans-serif;
+           --branding-color: rgba(250, 235, 215, 0.3);
+       }
+       
+       body {
+           font-family: var(--default-font);
+       }
+       
+       header {
+           background: url(/images/barnensbad1.jpg) no-repeat center;
+           height: 250px;
+       }
+       
+       h1,
+       h2,
+       h3 {
+           font-family: var(--heading-font);
+           font-weight: bold;
+           text-align: center;
+           padding: 20px;
+       }
+       
+       h2 {
+           font-size: 24px;
+       }
+       
+       h3 {
+           font-size: 14px;
+       }
+       
+       p {
+           font-weight: normal;
+           line-height: 30px;
+       }
+       
+       .btn {
+           border: rgb(77, 20, 20);
+       }
+       
+       .btn-learn {
+           background: var(--branding-color);
+           border: 1px solid rgb(180, 180, 180);
+           border-radius: 4px;
+           outline-width: 1px;
+           font-size: 14px;
+       }
+       
+       .hero {
+           background: var(--branding-color);
+       }
+       
+       .project-description {
+           padding: 0 30px;
+       }
+       
+       @media (max-width: 576px) {
+           h1,
+           h2 {
+               padding: 10px;
+           }
+           h1 {
+               font-size: 24px;
+               line-height: 1.5;
+           }
+           h2 {
+               font-size: 18px;
+           }
+           p {
+               text-align: center;
+           }
+           .project-description {
+               text-align: center;
+           }
+       }
