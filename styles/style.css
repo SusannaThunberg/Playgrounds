@@ -57,11 +57,16 @@ p {
 
 .about-section h1,
 h2 {
+    margin: 0px;
     padding: 10px;
 }
 
 .about-section p {
     line-height: 24px;
+}
+
+.about-section-content {
+    padding-top: 60px;
 }
 
 @media (max-width: 576px) {
