@@ -141,6 +141,12 @@ footer .social-icons a:hover {
     p {
         text-align: center;
     }
+    img {
+        max-width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
     .project-description {
         text-align: center;
     }
